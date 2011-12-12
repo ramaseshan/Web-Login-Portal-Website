@@ -1,0 +1,26 @@
+{% extends "profilebase.html" %}
+
+
+{% block title %}Edit Profile{% endblock %}
+
+
+{% block content_title %}
+  <h2 style="text-align:center;	font: 40px 'Calibri', Arial;">Edit Profile</h2>
+{% endblock %}
+{% block image%}{%if object.profilepic%}{{object.profilepic}}{%endif%}{% endblock %} 
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="/mmedia/css/profileedit.css" />
+
+  <form action="." method="post" enctype="multipart/form-data" class="profile_form">
+  {% csrf_token %}
+  
+    <table id='editprofile'>
+      {{ user_form.as_table }}
+      {{ profile_form.as_table }}
+    </table>
+    
+  <p> <input class="button" type="image" src="/mmedia/images/go.png" width="103" height="42" style="margin-left:450px;" /></p>
+    
+  </form>
+{% endblock %}

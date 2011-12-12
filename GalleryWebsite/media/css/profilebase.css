@@ -1,0 +1,31 @@
+body
+{
+	background-image:url('../images/bkgrnd.png');
+	background-repeat:repeat;
+	font: 20px "Calibri", Arial;
+	
+
+}
+
+#header
+{
+	background-image:url('../images/headerbg.jpg');
+	background-repeat:repeat;
+	height: 100px;
+	color: #ebebeb;
+	font: 40px "Calibri", Arial;
+
+}
+
+
+#body img
+{
+opacity:0.8;
+filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+#body img:hover
+{
+opacity:1.0;
+filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+

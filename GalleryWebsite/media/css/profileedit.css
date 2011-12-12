@@ -1,0 +1,134 @@
+#editprofile{
+ 
+ margin-left: 200px;
+ text-align:center;
+
+}
+
+
+#editprofile h2 {
+	padding:0;
+	margin:0;
+	color: #ebebeb;
+	font: bold 30px "Calibri", Arial;
+}
+
+#editprofile label{
+    float: left;
+	display:inline;
+	width:100px;
+	text-align: left;
+	padding: 14px 10px 0 0;
+	margin:0 0 7px 0;
+	font: 20px "Calibri", Arial;
+	
+
+}
+
+#id_first_name{
+	float: left;
+	display:inline;
+	margin:0 0 7px 0;
+	width: 400px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 20px;
+	color: #ebebeb;
+}
+
+#id_last_name{
+	float: left;
+	display:inline;
+	margin:0 0 7px 0;
+	width: 400px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 20px;
+	color: #ebebeb;
+}
+
+#id_gender{
+	float: left;
+	display:inline;
+	margin:0 0 7px 0;
+	width: 400px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 20px;
+	color: #ebebeb;
+}
+
+#id_profilepic{
+	float: left;
+	display:inline;
+	margin:0 0 7px 0;
+	width: 400px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 20px;
+	color: #ebebeb;
+}
+
+#id_birth_date{
+	float: left;
+	display:inline;
+	margin:0 0 7px 0;
+	width: 400px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 20px;
+	color: #ebebeb;
+}
+
+#id_address{
+	float: left;
+	display:inline;
+	margin:0 0 7px 0;
+	width: 400px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 20px;
+	color: #ebebeb;
+}
+
+#id_city{
+	float: left;
+	display:inline;
+	margin:0 0 7px 0;
+	width: 400px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 20px;
+	color: #ebebeb;
+}
+
+#id_state{
+	float: left;
+	display:inline;
+	margin:0 0 7px 0;
+	width: 400px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 20px;
+	color: #ebebeb;
+}
+
+#id_pincode{
+	float: left;
+	display:inline;
+	margin:0 0 7px 0;
+	width: 400px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 20px;
+	color: #ebebeb;
+}

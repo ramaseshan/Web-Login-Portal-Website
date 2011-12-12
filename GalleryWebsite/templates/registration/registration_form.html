@@ -1,0 +1,20 @@
+{% extends "registerandloginbase.html" %}
+{% load i18n %}
+{% block title %}Abhijeet's Gallery-Register{% endblock %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="/mmedia/css/register.css" />
+<div id="login-box">
+<h2 style="margin:10px 120px 0px;">Register</h2>
+<form method="post" action=".">
+ {% csrf_token %}
+  {{ form.as_p }}
+<br/>
+  <input type="image" src="/mmedia/images/go.png" width="103" height="42" style="margin-left:132px;" />
+  </form>
+
+<span class="login-box-options"><a href="{% url auth_password_reset %}" style="margin-left:140px;">{% trans "Forgot Password?" %}</a></span>
+<span class="login-box-options"><a href="{% url auth_login %}" style="margin-left:140px;">{% trans "Login" %}</a></span>
+<br/>
+</div>
+
+{% endblock %}

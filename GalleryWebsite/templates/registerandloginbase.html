@@ -1,0 +1,40 @@
+{% load i18n %}
+{% if user.is_authenticated %}
+ <meta http-equiv="REFRESH" content="0;url=/profile/">
+{% endif %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/mmedia/css/base.css" />
+    <title>{% block title %}User test{% endblock %}</title>
+</head>
+
+<body>
+<div style="padding: 100px 0 0 250px;">
+
+
+    <div id="header">
+        {% block header %}
+	       {% endblock %}
+    </div>
+
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <div id="footer">
+        {% block footer %}
+       
+        {% endblock %}
+    </div>
+    
+</div>
+<hr/>
+<div id=about>
+<p style=" font:12px 'Calibri', Arial; color: #ebebeb; text-align:center;">Developed by Abhijeet Pandey</p>
+</div>
+</body>
+
+</html>

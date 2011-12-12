@@ -1,0 +1,45 @@
+body
+{
+background: url(../images/darkblue.png) no-repeat left top;
+}
+#gallery
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:100%;
+border-collapse:collapse;
+}
+#gallery td, #gallery th 
+{
+font-size:1em;
+padding:3px 7px 2px 7px;
+}
+#gallery th 
+{
+font-size:1.1em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#95B9C7;
+color:#461B7E;
+}
+div.img
+{
+  margin: 2px;
+  height: auto;
+  width: auto;
+  float: left;
+  text-align: center;
+}	
+div.img img
+{
+  display: inline;
+  margin: 3px;
+  border: 1px solid #CFECEC;
+}
+div.img a:hover img {border: 1px solid #0000ff;}
+
+label.filebutton {
+  color:#ccc;
+}
+
+

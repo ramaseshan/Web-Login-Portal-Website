@@ -1,0 +1,22 @@
+{% extends "profiles/base_profile.html" %}
+
+
+{% block title %}Profile - {{ object.user.get_full_name }}{% endblock %}
+{% block image%}{%if object.profilepic%}{{object.profilepic}}{%endif%}{% endblock %} 
+
+
+{% block content_title %}
+  <h2 style="text-align:center;	font: 40px 'Calibri', Arial;">Home</h2>
+{% endblock %}
+
+
+{% block content %}
+<div style="text-align:center">
+
+ {% if object.user.get_full_name%}
+  <h2 id="user_name">{{ object.user.get_full_name }}
+    <em id="user_city"><br/>{{ object.get_gender_display }}<br/>{{object.address}}<br/>{{ object.city }}<br/> {{ object.state }}</em></h2>
+  {% endif %}
+ 
+  </div>
+  {% endblock %}

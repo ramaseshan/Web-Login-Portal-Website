@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<h1>Welcome {{ user.username }}!</h1>
+<p> You can either <a href="/accounts/logout/">logout</a> or 
+<a href="{% url auth_password_change %}">{% trans "Change password" %}</a>)
+</p>
+{% endblock %}

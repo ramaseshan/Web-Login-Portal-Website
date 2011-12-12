@@ -1,0 +1,90 @@
+#login-box {
+	width:368px;
+	height: 402px;
+	padding: 108px 111px 0 76px;
+	color: #ebebeb;
+	font: 14px "Calibri", Arial;
+	background: url(../images/loginbkgd1.png) no-repeat left top;
+}
+
+#login-box img {
+	border:none;
+}
+
+#login-box h2 {
+	padding:0;
+	margin:0 90px;
+	color: #ebebeb;
+	font: bold 30px "Calibri", Arial;
+}
+
+
+#login-box label{
+    float: left;
+	display:inline;
+	width:100px;
+	text-align: right;
+	padding: 14px 10px 0 0;
+	margin:0 0 5px 0;
+}
+
+#id_username {
+	float: left;
+	display:inline;
+	margin:0 0 5px 0;
+	width: 220px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 16px;
+	color: #ebebeb;
+	
+}
+
+#id_email {
+	float: left;
+	display:inline;
+	margin:0 0 5px 0;
+	width: 220px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 16px;
+	color: #ebebeb;
+}
+
+#id_password1 {
+	float: left;
+	display:inline;
+	margin:0 0 5px 0;
+	width: 220px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 16px;
+	color: #ebebeb;
+}
+
+
+#id_password2 {
+	float: left;
+	display:inline;
+	margin:0 0 5px 0;
+	width: 220px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 16px;
+	color: #ebebeb;
+}
+
+.login-box-options  {
+	clear:both;
+	padding-left:87px;
+	font-size: 13px;
+}
+
+.login-box-options a {
+	color: #ebebeb;
+	font-size: 13px;
+}
